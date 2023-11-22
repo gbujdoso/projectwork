@@ -11,6 +11,6 @@ Feature: As a registered user I want to be able to successfully log in to the si
       When I login with the following user:
         | email         |     password      |
         | test@test.com | Passwd123         |
-      Then headerline contains the word "<name>"
+      Then header contains the word "<name>"
       When click on the logout button
       Then login button is present
